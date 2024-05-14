@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { Fragment, useEffect, useState } from "react";
-import profile from "@/img/profile.jpg";
+import profile from "@/img/kenn.png";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { IoCloseCircleOutline, IoSunnyOutline } from "react-icons/io5";
@@ -162,7 +162,7 @@ const Header = () => {
         <Image
           src={profile}
           alt="Profile logo"
-          className="w-12 h-12 rounded-full object-cover"
+          className="w-20 h-20 rounded-full object-cover"
         />
       </Link>
       <div className="flex md:flex-1 justify-end md:justify-center">
