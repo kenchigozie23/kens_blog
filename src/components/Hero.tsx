@@ -7,12 +7,12 @@ import Container from "./Container";
 const Hero = () => {
   const [typeEffect] = useTypewriter({
     words: [
-      "Medical Doctor",
-      "Research writer",
-      "SEO specialist",
-      "Software developer",
-      "Data analyst",
-      "Digital marketer",
+      "Medical Doctor.",
+      "Research writer.",
+      "SEO specialist.",
+      "Software developer.",
+      "Data analyst.",
+      "Digital marketer.",
     ],
     loop: {},
     typeSpeed: 100,
@@ -23,7 +23,7 @@ const Hero = () => {
     <Container className="mt-9">
       <div className="max-w-2xl">
         <p className="text-3xl font-bold tracking-wide text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          👋 Hello there! I'm a&nbsp;
+          👋 Hello there! I'm a {""}
           <span className="text-5xl tracking-wide text-[#66cdaa]">
             {typeEffect}
           </span>
