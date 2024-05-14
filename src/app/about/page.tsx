@@ -19,34 +19,38 @@ const AboutPage = () => {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-wide text-zinc-800 sm:text-3xl dark:text-zinc-100">
-          👨‍⚕️💻📊💉 Versatile Professional: Medical Doctor | Public Health Consultant | Software Developer | Research Writer | Digital Marketer
+            👨‍⚕️💻📊💉 Versatile Professional: Medical Doctor | Public Health
+            Consultant | Software Developer | Research Writer | Digital Marketer
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              👨‍⚕️ Medical Professional: As a practicing medical doctor, I bring a
+              wealth of knowledge and expertise in the field of public health.
+              Committed to promoting well-being and preventing disease, I
+              leverage my clinical experience to provide insightful
+              consultations and develop effective healthcare strategies
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              💻 Tech Savvy Developer: With a passion for technology, I excel as
+              a software developer, creating innovative solutions that
+              streamline processes and enhance efficiency. My proficiency in
+              coding and data analysis allows me to tackle complex challenges,
+              delivering cutting-edge applications tailored to specific needs.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              📝 Research Writer: As a skilled research writer, I
+              have a knack for transforming complex information into compelling
+              narratives. My ability to distill intricate details into clear and
+              concise content ensures effective communication across diverse
+              audiences, making me a valuable asset in knowledge dissemination.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              🌐 Digital Marketing: In the ever-evolving digital
+              landscape, I thrive as a digital marketer, crafting engaging
+              campaigns and leveraging the power of online platforms to connect
+              with target audiences. My expertise in SEO, social media, and
+              analytics enables me to drive brand awareness, increase online
+              visibility, and maximize ROI.
             </p>
           </div>
         </div>
