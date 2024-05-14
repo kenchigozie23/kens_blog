@@ -14,7 +14,7 @@ const Hero = () => {
       "Data analyst.",
       "Digital marketer.",
     ],
-    loop: {},
+    
     typeSpeed: 100,
     deleteSpeed: 40,
   });
