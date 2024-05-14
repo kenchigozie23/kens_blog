@@ -1,18 +1,35 @@
+'use client'
 import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 import Container from "./Container";
 
+
+
+
+
 const Hero = () => {
+const [typeEffect] = useTypewriter({
+  words: ['Medical Doctor', 'Research writer', "SEO specialist", "Software developer","Data analyst", "Digital marketer"],
+  loop: {},
+  typeSpeed: 100,
+  deleteSpeed: 40
+})
+  
   return (
     <Container className="mt-9">
       <div className="max-w-2xl">
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          Software Engineer, React developer, and quick learner.
-        </h1>
+        <p className="text-3xl font-bold tracking-wide text-zinc-800 sm:text-5xl dark:text-zinc-100">
+        👋 Hello there! I'm a {''}
+
+          <span className="text-5xl tracking-wide text-[#66cdaa]">{typeEffect}</span>
+          <span className="text-[#66cdaa]">
+
+          <Cursor/>
+          </span>
+        </p>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m John Doe, a software Engineer and entrepreneur . Lorem ipsum dolor
-          sit amet consectetur adipisicing elit. Unde, veniam vel officiis
-          impedit et dolorum quasi est labore! Maxime quae magnam mollitia
-          nobis. Aut, alias?.
+        Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. A medical doctor specializing in public health, coupled with extensive experience as a research writer, SEO specialist, software developer, data analyst, and digital marketer. Excelling in bridging the gap between healthcare, technology, and effective communication strategies
         </p>
       </div>
     </Container>
