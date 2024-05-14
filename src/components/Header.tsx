@@ -67,8 +67,8 @@ const DesktopNavigation = (props: React.ComponentPropsWithRef<"nav">) => {
         <NavItem href="/about">About</NavItem>
         <NavItem href="/articles">Articles</NavItem>
         <NavItem href="/projects">Projects</NavItem>
-        <NavItem href="/speaking">Speaking</NavItem>
-        <NavItem href="/uses">Uses</NavItem>
+        {/* <NavItem href="/speaking">Speaking</NavItem> */}
+        <NavItem href="/uses">Contact</NavItem>
       </ul>
     </nav>
   );

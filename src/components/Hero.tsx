@@ -32,7 +32,7 @@ const Hero = () => {
           </span>
         </p>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 tracking-wider">
-        👨‍⚕️💻📝🔬🌐 Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. A medical doctor specializing in public health, coupled with extensive experience as a research writer, SEO specialist, software developer, data analyst, and digital marketer. Excelling in bridging the gap between healthcare, technology, and effective communication strategies.
+        👨‍⚕️💻📝🔬🌐 Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. Excelling in bridging the gap between healthcare, technology, and effective communication strategies.
         </p>
       </div>
     </Container>

@@ -26,31 +26,22 @@ const AboutPage = () => {
             <p>
               👨‍⚕️ Medical Professional: As a practicing medical doctor, I bring a
               wealth of knowledge and expertise in the field of public health.
-              Committed to promoting well-being and preventing disease, I
-              leverage my clinical experience to provide insightful
-              consultations and develop effective healthcare strategies
             </p>
             <p>
               💻 Tech Savvy Developer: With a passion for technology, I excel as
               a software developer, creating innovative solutions that
-              streamline processes and enhance efficiency. My proficiency in
-              coding and data analysis allows me to tackle complex challenges,
-              delivering cutting-edge applications tailored to specific needs.
+              streamline processes and enhance efficiency.
             </p>
             <p>
               📝 Research Writer: As a skilled research writer, I
               have a knack for transforming complex information into compelling
-              narratives. My ability to distill intricate details into clear and
-              concise content ensures effective communication across diverse
-              audiences, making me a valuable asset in knowledge dissemination.
+              narratives.
             </p>
             <p>
               🌐 Digital Marketing: In the ever-evolving digital
               landscape, I thrive as a digital marketer, crafting engaging
               campaigns and leveraging the power of online platforms to connect
-              with target audiences. My expertise in SEO, social media, and
-              analytics enables me to drive brand awareness, increase online
-              visibility, and maximize ROI.
+              with target audiences.
             </p>
           </div>
         </div>
