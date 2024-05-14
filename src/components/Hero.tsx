@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="max-w-2xl">
         <p className="text-3xl font-bold tracking-wide text-zinc-800 sm:text-5xl dark:text-zinc-100">
           👋 Hello there! I'm a {""}
-          <span className="text-5xl tracking-wide text-[#66cdaa]">
+          <span className="text-3xl tracking-wide text-[#66cdaa] sm:text-5xl">
             {typeEffect}
           </span>
           <span className="text-[#66cdaa]">
             <Cursor />
           </span>
         </p>
-        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+        <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 tracking-wide">
           Multitalented professional with a unique blend of medical expertise,
           technical prowess and creative flair. A medical doctor specializing in
           public health, coupled with extensive experience as a research writer,
