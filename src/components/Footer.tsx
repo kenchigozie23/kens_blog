@@ -7,12 +7,12 @@ const Footer = () => {
       <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
         <Link href={"about"}>About</Link>
         <Link href="/projects">Projects</Link>
-        <Link href="/speaking">Speaking</Link>
-        <Link href="/uses">Uses</Link>
+        {/* <Link href="/speaking">Speaking</Link> */}
+        <Link href="/uses">Contact</Link>
       </div>
 
       <p className="text-sm text-zinc-500 dark:text-zinc-400">
-        &copy; {new Date().getFullYear()} jonedoe_All rights reserved.
+        &copy; {new Date().getFullYear()} Kenneth Okoronkwo_All rights reserved.
       </p>
     </footer>
   );

@@ -4,7 +4,7 @@ import Container from "./Container";
 import { ArticleWithSlug } from "@/lib/article";
 import { useRouter } from "next/navigation";
 import { AppContext } from "@/app/providers";
-import { BsArrowLeftCircle } from "react-icons/bs";
+// import { BsArrowLeftCircle } from "react-icons/bs";
 import { formatDate } from "@/lib/formateDate";
 import { Prose } from "./Prose";
 

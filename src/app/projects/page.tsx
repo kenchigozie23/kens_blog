@@ -1,10 +1,10 @@
 import SimpleLayout from "@/components/SimpleLayout";
 import React from "react";
 import logoAnimaginary from "@/img/logos/animaginary.svg";
-import logoCosmos from "@/img/logos/cosmos.svg";
-import logoHelioStream from "@/img/logos/helio-stream.svg";
-import logoOpenShuttle from "@/img/logos/open-shuttle.svg";
-import logoPlanetaria from "@/img/logos/planetaria.svg";
+import logoCosmos from "@/img/logos/f1.png";
+import logoHelioStream from "@/img/logos/crypto.png";
+import logoOpenShuttle from "@/img/logos/r1.png";
+import logoPlanetaria from "@/img/logos/k2.png";
 import { type Metadata } from "next";
 import { Card } from "@/components/Card";
 import Image from "next/image";
@@ -12,51 +12,51 @@ import { GoLink } from "react-icons/go";
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "Things I’ve made trying to put my dent in the universe.",
+  description: "Things I’ve built throughout my career.",
 };
 
 const ProjectPage = () => {
   const projects = [
     {
-      name: "Planetaria",
+      name: "E-Commerce Website",
       description:
         "Creating technology to empower civilians to explore space on their own terms.",
-      link: { href: "http://planetaria.tech", label: "planetaria.tech" },
+      link: { href: "https://ecommerce-stunning.vercel.app/", label: "E-Commerce " },
       logo: logoPlanetaria,
     },
     {
-      name: "Animaginary",
+      name: "E-Learning Website",
       description:
         "High performance web animation library, hand-written in optimized WASM.",
-      link: { href: "#", label: "github.com" },
+      link: { href: "https://kens-education.vercel.app/", label: "E-Learning" },
       logo: logoAnimaginary,
     },
     {
-      name: "HelioStream",
+      name: "Crypto Price Tracker",
       description:
         "Real-time video streaming library, optimized for interstellar transmission.",
-      link: { href: "#", label: "github.com" },
+      link: { href: "https://cryptopricetrackplug.vercel.app/", label: "Bitcoin" },
       logo: logoHelioStream,
     },
     {
-      name: "cosmOS",
+      name: "Invseta Finance Limited",
       description:
         "The operating system that powers our Planetaria space shuttles.",
-      link: { href: "#", label: "github.com" },
+      link: { href: "https://investa-website.vercel.app/", label: "Finance" },
       logo: logoCosmos,
     },
     {
-      name: "OpenShuttle",
+      name: "Grilli Restaurant",
       description:
         "The schematics for the first rocket I designed that successfully made it to orbit.",
-      link: { href: "#", label: "github.com" },
+      link: { href: "https://ken-resturant-landing-page.vercel.app/", label: "Restaurant" },
       logo: logoOpenShuttle,
     },
   ];
   return (
     <SimpleLayout
-      title="Things I’ve made trying to put my dent in the universe."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      title="👨‍⚕️👨‍💻📊✍️ Doctor, Coder, Analyst, Writer: Blending 🩺Tech & 💊Medical Ingenuity."
+      intro="I'm a Software developer, Freelancer, and an IT-Specialist. I specialize in creating intuitive frontend project and software with creative eye for design and a strong focus on delivering elegant and intuitive interfaces. Excited to collaborate on new projects!"
     >
       <ul
         role="list"
