@@ -23,6 +23,7 @@
     "nextjs-toploader": "^1.6.12",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
     "react-icons": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
     "react-spinners": "^0.13.8",

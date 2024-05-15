@@ -142,10 +142,11 @@ const MobileNavigation = (
                 <MobileNavItem href="/articles">Articles</MobileNavItem>
                 <MobileNavItem href="/projects">Projects</MobileNavItem>
                 {/* <MobileNavItem href="/speaking">Speaking</MobileNavItem> */}
-                <MobileNavItem href="/uses">Contact</MobileNavItem>
+                <MobileNavItem href="/contact">Contact</MobileNavItem>
               </ul>
               <Link href='/contact'>
               <button className="text-teal-500 w-full py-2 rounded-md dark:bg-black text-sm uppercase border border-teal-800 hover:text-teal-600 dark:hover:text-teal-200 hover:border-teal-700 duration-300 mt-6" type="submit">
+              say hi 👋
               </button>
                 </Link>
             </nav>
