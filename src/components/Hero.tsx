@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 import Container from "./Container";
 
@@ -34,6 +35,68 @@ const Hero = () => {
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 tracking-wider">
         👨‍⚕️💻📝🔬🌐 Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. Excelling in bridging the gap between healthcare, technology, and effective communication strategies.
         </p>
+        <div className=" mx-auto py-6">
+        
+        <div className="flex justify-start">
+          <ul className="flex space-x-8">
+            <li>
+              <a
+                href="www.fb.com"
+                className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
+              >
+                <FaFacebook
+                  className="text-4xl transform hover:scale-125 transition-transform duration-300"
+                  aria-label="Facebook"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="www.x.com"
+                className="text-blue-400 hover:text-blue-600 transition-colors duration-300"
+              >
+                <FaTwitter
+                  className="text-4xl transform hover:scale-125 transition-transform duration-300"
+                  aria-label="Twitter"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="www.instagram.com"
+                className="text-pink-600 hover:text-pink-800 transition-colors duration-300"
+              >
+                <FaInstagram
+                  className="text-4xl transform hover:scale-125 transition-transform duration-300"
+                  aria-label="Instagram"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="www.linkedin.com/in/kenneth-okoronkwo"
+                className="text-blue-700 hover:text-blue-900 transition-colors duration-300"
+              >
+                <FaLinkedin
+                  className="text-4xl transform hover:scale-125 transition-transform duration-300"
+                  aria-label="LinkedIn"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="www.github.com/kenchigozie23"
+                className="text-gray-700 hover:text-gray-900 transition-colors duration-300"
+              >
+                <FaGithub
+                  className="text-4xl transform hover:scale-125 transition-transform duration-300"
+                  aria-label="GitHub"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       </div>
     </Container>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import logoAirbnb from "@/img/logos/airbnb.svg";
-import logoFacebook from "@/img/logos/facebook.svg";
+import logoFacebook from "@/img/logos/board.jpeg";
 import logoPlanetaria from "@/img/logos/planetaria.svg";
 import logoStarbucks from "@/img/logos/starbucks.svg";
 import Image, { type ImageProps } from "next/image";
@@ -58,8 +58,8 @@ const Role = ({ role }: { role: Role }) => {
 const Resume = () => {
   let resume: Array<Role> = [
     {
-      company: "Planetaria",
-      title: "CEO",
+      company: "Flutterwave",
+      title: "Software Engineer",
       logo: logoPlanetaria,
       start: "2019",
       end: {
@@ -75,15 +75,15 @@ const Resume = () => {
       end: "2019",
     },
     {
-      company: "Facebook",
-      title: "iOS Software Engineer",
+      company: "Board Walk",
+      title: "Data Entry Clerk",
       logo: logoFacebook,
       start: "2011",
       end: "2014",
     },
     {
       company: "Starbucks",
-      title: "Shift Supervisor",
+      title: "Administrative Assistant",
       logo: logoStarbucks,
       start: "2008",
       end: "2011",
