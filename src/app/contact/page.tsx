@@ -20,7 +20,7 @@ import React from "react";
 
 const UsesPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-teal-400 to-teal-600">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
     <div className="max-w-md w-full bg-white rounded-lg shadow-2xl p-8">
       <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
         Contact Us
