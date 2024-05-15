@@ -1,14 +1,20 @@
+
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../style/globals.css";
 import { Providers } from "./providers";
 import Layout from "@/components/Layout";
 
+
+// import type { AppProps } from 'next/app';
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "My blog | Explore the new horizon",
-  description: "Awesome blog website created by andraX",
+  description: "Awesome blog website created by andrax",
 };
 
 export default function RootLayout({
@@ -18,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body className={inter.className}>
+      
         <Providers>
           <div className="flex w-full bg-black overflow-hidden">
             <Layout>{children}</Layout>

@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/Card";
 import Container from "@/components/Container";
 import Hero from "@/components/Hero";
@@ -6,6 +7,7 @@ import Photos from "@/components/Photos";
 import Resume from "@/components/Resume";
 import { ArticleWithSlug, getAllArticles } from "@/lib/article";
 import { formatDate } from "@/lib/formateDate";
+
 
 const Article = ({ article }: { article: ArticleWithSlug }) => {
   return (
@@ -25,6 +27,7 @@ export default async function Home() {
 
   return (
     <main>
+     
       <Hero />
       <Photos />
       <Container className="mt-24 md:mt-28">

@@ -4,6 +4,8 @@ import { createContext, useEffect, useRef } from "react";
 import { ThemeProvider, useTheme } from "next-themes";
 import { usePathname } from "next/navigation";
 
+
+
 function usePrevious<T>(value: T) {
   let ref = useRef<T>();
 
@@ -45,6 +47,7 @@ export const Providers = ({ children }: { children: React.ReactNode }) => {
       <ThemeProvider attribute="class" disableTransitionOnChange>
         <ThemeWatcher />
         {children}
+        
       </ThemeProvider>
     </AppContext.Provider>
   );
