@@ -1,6 +1,6 @@
-import { Card } from "@/components/Card";
-import Section from "@/components/Section";
-import SimpleLayout from "@/components/SimpleLayout";
+// import { Card } from "@/components/Card";
+// import Section from "@/components/Section";
+// import SimpleLayout from "@/components/SimpleLayout";
 import React from "react";
 
 // const ToolsSection = ({
@@ -25,12 +25,13 @@ const UsesPage = () => {
       <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
         Contact Us
       </h1>
-      <form>
+      <form action="https://getform.io/f/pagxzoeb" method="POST">
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
             Name
           </label>
           <input
+          name="Name"
             type="text"
             id="name"
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
@@ -42,6 +43,7 @@ const UsesPage = () => {
             Email
           </label>
           <input
+          name="E-mail"
             type="email"
             id="email"
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
@@ -53,6 +55,7 @@ const UsesPage = () => {
             Message
           </label>
           <textarea
+          name="Message"
             id="message"
             rows={4}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"

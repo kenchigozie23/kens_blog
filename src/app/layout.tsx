@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import "../style/globals.css";
 import { Providers } from "./providers";
 import Layout from "@/components/Layout";
+import NextTopLoader from 'nextjs-toploader'
 
 
 // import type { AppProps } from 'next/app';
@@ -29,7 +30,11 @@ export default function RootLayout({
       
         <Providers>
           <div className="flex w-full bg-black overflow-hidden">
-            <Layout>{children}</Layout>
+            <Layout>
+              <NextTopLoader color="#66cdaa"/>
+              {children}
+            
+            </Layout>
           </div>
         </Providers>
       </body>

@@ -24,7 +24,7 @@ const Hero = () => {
     <Container className="mt-9">
       <div className="max-w-2xl">
         <p className="text-3xl font-bold tracking-wide text-zinc-800 sm:text-5xl dark:text-zinc-100">
-          👋 Hello there! I'm a {""}
+        👋 Hello there! I'm a {""}
           <span className="text-3xl tracking-wide text-[#66cdaa] sm:text-5xl">
             {typeEffect}
           </span>
@@ -41,7 +41,9 @@ const Hero = () => {
           <ul className="flex space-x-8">
             <li>
               <a
-                href="www.fb.com"
+                href="https://www.fb.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 transition-colors duration-300"
               >
                 <FaFacebook
@@ -52,7 +54,9 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="www.x.com"
+                href="https://www.x.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-600 transition-colors duration-300"
               >
                 <FaTwitter
@@ -63,7 +67,9 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="www.instagram.com"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-pink-600 hover:text-pink-800 transition-colors duration-300"
               >
                 <FaInstagram
@@ -74,7 +80,8 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="www.linkedin.com/in/kenneth-okoronkwo"
+                href="https://www.linkedin.com/in/kenneth-okoronkwo"
+                rel="noopener noreferrer"
                 className="text-blue-700 hover:text-blue-900 transition-colors duration-300"
               >
                 <FaLinkedin
@@ -85,7 +92,9 @@ const Hero = () => {
             </li>
             <li>
               <a
-                href="www.github.com/kenchigozie23"
+                href="https://www.github.com/kenchigozie23"
+                rel="noopener noreferrer"
+                target="_blank"
                 className="text-gray-700 hover:text-gray-900 transition-colors duration-300"
               >
                 <FaGithub

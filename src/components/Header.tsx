@@ -144,9 +144,10 @@ const MobileNavigation = (
                 {/* <MobileNavItem href="/speaking">Speaking</MobileNavItem> */}
                 <MobileNavItem href="/uses">Contact</MobileNavItem>
               </ul>
-              <button className="text-teal-500 w-full py-2 rounded-md dark:bg-black text-sm uppercase border border-teal-800 hover:text-teal-600 dark:hover:text-teal-200 hover:border-teal-700 duration-300 mt-6">
-                Login
+              <Link href='/contact'>
+              <button className="text-teal-500 w-full py-2 rounded-md dark:bg-black text-sm uppercase border border-teal-800 hover:text-teal-600 dark:hover:text-teal-200 hover:border-teal-700 duration-300 mt-6" type="submit">
               </button>
+                </Link>
             </nav>
           </Popover.Panel>
         </Transition.Child>
@@ -170,9 +171,11 @@ const Header = () => {
         <DesktopNavigation className="pointer-events-auto hidden md:block" />
       </div>
       <div className="flex items-center gap-5">
-        <button className="hidden md:inline-flex text-teal-500 px-8 py-2 rounded-full dark:bg-black text-sm uppercase border border-teal-800 hover:text-teal-800 dark:hover:text-teal-200 hover:border-teal-700 duration-300">
+        <Link href='/contact'>
+        <button className="hidden md:inline-flex text-teal-500 px-8 py-2 rounded-full dark:bg-black text-sm uppercase border border-teal-800 hover:text-teal-800 dark:hover:text-teal-200 hover:border-teal-700 duration-300" type="submit">
           Login
         </button>
+        </Link>
         {/* MobileNavigation */}
         <MobileNavigation className="pointer-events-auto md:hidden" />
         <ThemeToggle />
