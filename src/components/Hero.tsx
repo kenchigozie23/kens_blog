@@ -38,7 +38,7 @@ const Hero = () => {
         <div className=" mx-auto py-6">
         
         <div className="flex justify-start">
-          <ul className="flex space-x-8">
+          <ul className="flex lg:space-x-8 space-x-5">
             <li>
               <a
                 href="https://www.fb.com"
