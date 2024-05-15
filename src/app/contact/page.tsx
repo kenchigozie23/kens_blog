@@ -2,7 +2,7 @@
 // import Section from "@/components/Section";
 // import SimpleLayout from "@/components/SimpleLayout";
 import React from "react";
-import { useForm, SubmitHandler } from "react-hook-form"
+// import { useForm, SubmitHandler } from "react-hook-form"
 
 // const ToolsSection = ({
 //   children,
@@ -49,6 +49,7 @@ const UsesPage = () => {
             id="email"
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
             placeholder="Enter your email"
+            required
           />
         </div>
         <div className="mb-4">
@@ -58,6 +59,7 @@ const UsesPage = () => {
           <textarea
           name="Message"
             id="message"
+            required
             rows={4}
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-400"
             placeholder="Enter your message"
