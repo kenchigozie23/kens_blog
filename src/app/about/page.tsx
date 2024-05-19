@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
 import React from "react";
-import portraitImage from "@/img/ken.png";
+import portraitImage from "@/img/kenneth.png";
 import Image from "next/image";
 
 const AboutPage = () => {
