@@ -26,7 +26,7 @@ const UsesPage = () => {
       <h1 className="text-3xl font-bold mb-6 text-center text-gray-800">
         Contact Us
       </h1>
-      <form action="https://getform.io/f/pagxzoeb" method="POST">
+      <form action="https://getform.io/f/pbmqwjlb" method="POST">
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 font-bold mb-2">
             Name
