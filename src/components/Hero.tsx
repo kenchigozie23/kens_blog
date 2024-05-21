@@ -14,8 +14,9 @@ const Hero = () => {
       "Software developer.",
       "Data analyst.",
       "Digital marketer.",
+      "AI ",
     ],
-    
+    loop: true,
     typeSpeed: 100,
     deleteSpeed: 40,
   });
@@ -24,7 +25,7 @@ const Hero = () => {
     <Container className="mt-9">
       <div className="max-w-2xl">
         <p className="text-3xl font-bold tracking-wide text-zinc-800 sm:text-5xl dark:text-zinc-100">
-        👋 Hello there! I'm a {""}
+         Hey👋, I'm a {""}
           <span className="text-3xl tracking-wide text-[#66cdaa] sm:text-5xl">
             {typeEffect}
           </span>
