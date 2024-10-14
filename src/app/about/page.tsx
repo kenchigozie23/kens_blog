@@ -19,14 +19,10 @@ const AboutPage = () => {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-wide text-zinc-800 sm:text-3xl dark:text-zinc-100">
-            👨‍⚕️💻📊💉 Versatile Professional: Medical Doctor | Public Health
-            Consultant | Software Developer | Research Writer | Digital Marketer
+            👨‍⚕️💻📊 Professional Software Developer | Digital Marketer | Blockchain Developer | Research Writer 
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            <p>
-              👨‍⚕️ Medical Professional: As a practicing medical doctor, I bring a
-              wealth of knowledge and expertise in the field of public health.
-            </p>
+           
             <p>
               💻 Tech Savvy Developer: With a passion for technology, I excel as
               a software developer, creating innovative solutions that

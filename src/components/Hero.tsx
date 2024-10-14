@@ -2,19 +2,18 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 import Container from "./Container";
 
 const Hero = () => {
   const [typeEffect] = useTypewriter({
     words: [
-      "Medical Doctor.",
+      "Blockchain developer",
       "Research writer.",
-      "SEO specialist.",
-      "Software developer.",
+      "Software engineer.",
       "Data analyst.",
       "Digital marketer.",
-      "AI enthusiast",
     ],
     loop: true,
     typeSpeed: 100,
@@ -34,13 +33,13 @@ const Hero = () => {
           </span>
         </p>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400 tracking-wider">
-        👨‍⚕️💻📝🔬🌐 Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. Excelling in bridging the gap between healthcare, technology, and effective communication strategies.
+        👨‍⚕️💻📝🔬🌐 Multitalented professional with a unique blend of medical expertise, technical prowess and creative flair. Excelling in bridging the gap between healthcare, technology and effective communication strategies.
         </p>
         <div className=" mx-auto py-6">
         
         <div className="flex justify-start">
           <ul className="flex lg:space-x-8 space-x-5">
-            <li>
+            {/* <li>
               <a
                 href="https://www.fb.com"
                 target="_blank"
@@ -52,7 +51,7 @@ const Hero = () => {
                   aria-label="Facebook"
                 />
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="https://www.x.com"
@@ -60,13 +59,13 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-600 transition-colors duration-300"
               >
-                <FaTwitter
+                <FaXTwitter
                   className="text-4xl transform hover:scale-125 transition-transform duration-300"
                   aria-label="Twitter"
                 />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://www.instagram.com"
                 target="_blank"
@@ -78,7 +77,7 @@ const Hero = () => {
                   aria-label="Instagram"
                 />
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="https://www.linkedin.com/in/kenneth-okoronkwo"

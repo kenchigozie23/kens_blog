@@ -10,6 +10,7 @@ import { usePathname } from "next/navigation";
 import clsx from "clsx";
 import { Popover, Transition } from "@headlessui/react";
 import { FaChevronDown } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6"
 
 const ThemeToggle = () => {
   let { resolvedTheme, setTheme } = useTheme();

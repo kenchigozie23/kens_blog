@@ -38,15 +38,7 @@ const AriclePage = async () => {
   return (
     <SimpleLayout
       title="
-      Writing 📝
-      
-      Software Design 💻
-      SEO Best Practices 🌐
-      Health ⚕️
-      Big Data 📈
-      Programming 💻
-      
-      ...and so much more! 🚀"
+     The Future is Now: Discover the Latest Trends in Software Design, SEO, Health, Big Data, Programming, and Beyond!"
       intro="All of my long-form thoughts on programming, leadership, product design, and more, collected in chronological order."
     >
       <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">

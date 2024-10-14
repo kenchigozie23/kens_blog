@@ -1,7 +1,7 @@
 import React from "react";
-import logoAirbnb from "@/img/logos/airbnb.svg";
-import logoFacebook from "@/img/logos/board.jpeg";
-import logoPlanetaria from "@/img/logos/planetaria.svg";
+import logoAirbnb from "@/img/logos/flutterwave.png";
+import logoFacebook from "@/img/logos/R.png";
+import logoPlanetaria from "@/img/logos/trinix-logo.png";
 import logoStarbucks from "@/img/logos/starbucks.svg";
 import Image, { type ImageProps } from "next/image";
 import { FaBriefcase } from "react-icons/fa";
@@ -59,28 +59,28 @@ const Role = ({ role }: { role: Role }) => {
 const Resume = () => {
   let resume: Array<Role> = [
     {
-      company: "Flutterwave",
-      title: "Software Engineer",
+      company: "Trinetix Solutions",
+      title: "Blockchain Developer",
       logo: logoPlanetaria,
-      start: "2019",
+      start: "2023",
       end: {
         label: "Present",
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: "Airbnb",
-      title: "Product Designer",
+      company: "Flutterwave",
+      title: "Software Developer",
       logo: logoAirbnb,
-      start: "2014",
-      end: "2019",
+      start: "2021",
+      end: "2022",
     },
     {
-      company: "Board Walk",
-      title: "Data Entry Clerk",
+      company: "Quest Global Technologies Limited",
+      title: "Backend Developer",
       logo: logoFacebook,
-      start: "2011",
-      end: "2014",
+      start: "2020",
+      end: "2021",
     },
     {
       company: "Starbucks",
