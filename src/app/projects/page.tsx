@@ -55,7 +55,7 @@ const ProjectPage = () => {
   ];
   return (
     <SimpleLayout
-      title="👨‍⚕️👨‍💻📊✍️ Doctor, Coder, Analyst, Writer: Blending 🩺Tech & 💊Medical Ingenuity."
+      title="👨‍⚕️👨‍💻📊✍️ Doctor, Programmer and an Analyst"
       intro="I'm a Software developer, Freelancer, and an IT-Specialist. I specialize in creating intuitive frontend project and software with creative eye for design and a strong focus on delivering elegant and intuitive interfaces. Excited to collaborate on new projects!"
     >
       <ul
