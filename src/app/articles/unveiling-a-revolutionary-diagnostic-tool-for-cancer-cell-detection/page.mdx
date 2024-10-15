@@ -25,7 +25,7 @@ export default (props) => <ArticleLayout article={article} {...props} />;
 
 Cancer remains one of the most formidable challenges in global healthcare, with its impact being particularly severe in developing countries. In Nigeria alone, over 10,000 lives are lost annually due to undiagnosed or late-detected cancer. This article explores an innovative project that leverages the power of Artificial Intelligence (AI) to address this critical issue, potentially revolutionizing cancer diagnosis in resource-limited settings.
 
-![Cancer Cell Under Microscope](https://th.bing.com/th/id/OIP.8tAtkwry-BAhqNlUoZ_PGAHaE7?rs=1&pid=ImgDetMain)
+![Cancer Cell Under Microscope](https://th.bing.com/th/id/OIP.K7v7hgYB-tL1_ztYqtOSFwAAAA?rs=1&pid=ImgDetMain)
 
 ## The Challenge: Cancer Diagnosis in Nigeria
 
@@ -44,14 +44,14 @@ These factors contribute to the high mortality rates from cancer, making early a
 
 To address these challenges, our project focuses on developing a Convolutional Neural Network (CNN) model using TensorFlow. This AI-powered tool can accurately detect and classify five different types of cancer cells from microscopic images, achieving an impressive 85% accuracy rate.
 
-### Key Features of the Project:
+### Key Features in using AI-Powered Cancer Cell Detection:
 
 1. **High Accuracy**: 85% accuracy in detecting and classifying cancer cells
 2. **Reduced Diagnostic Time**: 30% reduction in the time required for diagnosis
 3. **Multi-class Classification**: Ability to distinguish between 5 different types of cancer cells
 4. **Scalability**: Potential for deployment on various platforms, including mobile devices
 
-![AI-in-cancer-detection](https://th.bing.com/th/id/OIP.6Kb45pmpNFx-No6I3fgqXAHaE8?rs=1&pid=ImgDetMain)
+![AI-in-cancer-detection](https://th.bing.com/th/id/OIP.A0Xn9GsgXtR8HDpP5WZaBAHaDb?rs=1&pid=ImgDetMain)
 ![AI-revolutionizing](https://th.bing.com/th/id/OIP.8KYUzx9wzox1po4DodbiQAHaEK?rs=1&pid=ImgDetMain)
 
 ## Understanding the Technology: Convolutional Neural Network (CNN) and TensorFlow
@@ -125,7 +125,7 @@ Our CNN model architecture consists of:
 
 Here's a simplified version of our model architecture in TensorFlow:
 
-```py
+```js
 {`
 model = tf.keras.Sequential([
     tf.keras.layers.Conv2D(32, (3, 3), activation='relu', input_shape=(224, 224, 3)),
@@ -148,7 +148,7 @@ model = tf.keras.Sequential([
 
 The model was trained using the Adam optimizer and categorical crossentropy loss function. We used a technique called early stopping to prevent overfitting, which stops the training process when the model's performance on a validation set stops improving.
 
-```py
+```js
 {`
 model.compile(optimizer='adam',
               loss='categorical_crossentropy',
@@ -216,4 +216,4 @@ As we continue to refine and expand this technology, we move closer to a future 
 
 For medical students and healthcare professionals, this technology represents an exciting new frontier in medicine. As AI continues to evolve and integrate into healthcare, it will be crucial to understand both its capabilities and limitations, ensuring that we harness its power responsibly and effectively to improve patient outcomes.
 
-![AI-in-future-health-care](https://th.bing.com/th/id/OIP.FHCmFY1B-BgUn5lpWWEohwHaEK?rs=1&pid=ImgDetMain)
+![AI-in-future-health-care](https://th.bing.com/th/id/R.241b838f1b0c7034630b5b77f59275a4?rik=0pninp8yU%2bFmwQ&pid=ImgRaw&r=0)
