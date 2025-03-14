@@ -1,29 +1,20 @@
-import ArticleLayout from "@/components/ArticleLayout"; 
+import ArticleLayout from "@/components/ArticleLayout";
 import Image from 'next/image'
-
 export const article = { 
   author: "AndraX", 
   date: "2025-03-14", 
   title: "The Medusa Virus Ransomware: Understanding the Threat and How to Protect Yourself", 
   description: "A comprehensive guide to identifying, preventing, and recovering from the sophisticated Medusa ransomware threat", 
 };
+export const metadata = { title: article.title, description: article.description, };
 
-export const metadata = { 
-  title: article.title, 
-  description: article.description,
-  keywords: ['Medusa Virus Ransomware', 'how to remove Medusa ransomware', 'Medusa virus protection', 'ransomware recovery strategies', 'ransomware prevention', 'cyber security threat', 'data encryption malware', 'ransomware attack response'],
-  openGraph: {
-    images: ['/images/medusa-ransomware-og.jpg'],
-    type: 'article',
-    publishedTime: '2025-03-14',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    images: ['/images/medusa-ransomware-twitter.jpg'],
-  },
-};
+export default (props) => <ArticleLayout article={article} {...props} />;onents/ArticleLayout"; 
 
-export default (props) => <ArticleLayout article={article} {...props} />;
+
+
+
+
+
 
 # The Medusa Virus Ransomware: Understanding the Threat and How to Protect Yourself
 
